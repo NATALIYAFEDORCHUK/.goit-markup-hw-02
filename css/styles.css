@@ -1,7 +1,17 @@
+:root {
+    --heder-contact-color.-- # FFFFFF --
+}
+
 body {
   font-family: Roboto, sans-serif;
 }
+.list {
+    list-style: none;
+}
+{text-decoration:none;
+}
 /*header*/
+
 .heder{
     position: absolute;
 width: 1600px;
@@ -15,9 +25,8 @@ background: #FFFFFF;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-  letter-spacing: 0.03em;
+  line-height: 1.19;
+   letter-spacing: 0.03em;
   color: #2196f3;
 }
 .heder-link-studio  
@@ -26,58 +35,49 @@ background: #FFFFFF;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: black;
 }
 .header-link-line {
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 .header-link-contact {
-  font-style: normal;
-  font-weight: 500;
+    font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
 .header-link-mailto {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
+var()
+.header-link-mailto :hover,
+.header-link-mailto :focus {}
 .header-link-tel {
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
 /*main*/
-.section-one{
-    position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
-background: #2F303A;
-}
+
 .title{
-    font-style: normal;
-font-weight: 900;
+ font-weight: 900;
 font-size: 44px;
-line-height: 60px;
-/* or 136% */
+line-height: 1.36;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
@@ -85,11 +85,9 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 .btn{
-    font-style: normal;
 font-weight: bold;
 font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 187% */
+line-height: 1.87;
 display: flex;
 align-items: center;
 text-align: center;
@@ -108,80 +106,63 @@ color: #FFFFFF;
  }
     
     /*Особенности работы*/
-.work-title{
-    font-style: normal;
+
+    .work-title{
 font-weight: bold;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
 }
 .work-text{
-    font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
 }
 /*Чем мы занимаемся*/
 .hero-title{
-    font-style: normal;
 font-weight: bold;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
 /*Наша команда*/
 .about-title{
-    font-style: normal;
 font-weight: bold;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
 .about-title-name{
-    font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
 .about-text-profession{
-    font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
 }
 /*footer*/
-.footer{
-    position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2097px;
-background: #2F303A;
-}
 .footer-link{
     font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
-line-height: 31px;
-/* identical to box height */
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
@@ -190,35 +171,31 @@ color: #2196F3;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
-line-height: 31px;
-/* identical to box height */
+line-height: 1.19;
 letter-spacing: 0.03em;
-color: white;
+color: rgb(204, 185, 185);
 }
 .footer-address{
     font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
+line-height: 1.84;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color:  #FFFFFF;
 }
 .footer-contact{
     font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
+line-height: 1.71;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color:  #FFFFFF;
 }
 .footer-tel{
     font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
