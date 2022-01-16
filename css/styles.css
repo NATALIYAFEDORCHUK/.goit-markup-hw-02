@@ -1,5 +1,17 @@
 :root {
-    --heder-contact-color.-- # FFFFFF --
+    --heder-mailto-color: #2196f3;
+}
+:root {
+    --heder-tel-color: #757575;
+}
+:root {
+    --heder-link-mailto: #f32121;
+}
+:root {
+    --footer-address-color:#FFFFFF;
+}
+:root {
+    --footer-tel-color: #rgba; 
 }
 
 body {
@@ -59,18 +71,26 @@ background: #FFFFFF;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--heder-contact-color);
+} 
+
+.header-link-mailto:hover{
+    color: var(--heder-link-mailto);
 }
-var()
-.header-link-mailto :hover,
+
+}
 .header-link-mailto :focus {}
+
 .header-link-tel {
   
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--heder-tel-color);
+}
+.header-link-tel:hover{
+    color: var(--heder-link-mailto);
 }
 /*main*/
 
@@ -181,7 +201,10 @@ font-weight: normal;
 font-size: 14px;
 line-height: 1.84;
 letter-spacing: 0.03em;
-color:  #FFFFFF;
+color:  var(--footer-address-color);
+}
+.footer-address:hover{
+    color: var(--heder-link-mailto);
 }
 .footer-contact{
     font-style: normal;
@@ -189,7 +212,10 @@ font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color:  #FFFFFF;
+color:  var(--footer-address-color);
+}
+.footer-contact:hover{
+    color: var(--heder-link-mailto);
 }
 .footer-tel{
     font-style: normal;
@@ -197,5 +223,8 @@ font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color: var(--heder-tel-color);
+}
+.footer-tel:hover{
+    color: var(--heder-link-mailto);
 }
